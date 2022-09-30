@@ -46,14 +46,14 @@ let handler = async (m, { conn, generateWAMessageFromContent, }) => {
 │✧  ${nsfw ? '✅' : '❌'} *Mode Nsfw*
 ╰────────────⬣`
 
-conn.sendButtonDoc(m.chat, '▷ʙᴏᴛ sᴛᴀᴛᴜs◁', sts, 'Owner', '.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https//wa.me/6281361281833?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
+conn.sendButtonDoc(m.chat, '▷Bot Status◁', sts, 'Owner', '.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'https//wa.me/6283854551575?text=Halo+bang',
     mediaType: 2, 
-    description: 'wa.me/6281361281833?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
-    title: "Iɴɪ Fᴀᴄᴇʙᴏᴏᴋ Gᴡ!",
+    description: 'wa.me/6283854551575?text=Halo+bang',
+    title: "Ini Tiktok Saya!",
     body: wm,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
-    sourceUrl: 'https://facebook.com/sadtime098'
+    sourceUrl: 'https://vt.tiktok.com/ZSeABMWuN'
      }}
   })
 
